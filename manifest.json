@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Undo Movement",
+  "description": "Lets you undo accidental movements (eg an accidental page down)",
+  "version": "1.0.0",
+
+  "background": {
+      "scripts": ["jquery-3.1.0.min.js", "undo.js"],
+      "persistent": true
+  },
+
+  "content_scripts": [{
+      "js": ["jquery-3.1.0.min.js", "scroll.js"],
+      "matches": ["http://*/*", "https://*/*", "ftp://*/*"],
+      "run_at": "document_end"
+  }],
+
+  "commands": {
+      "undo": {
+          "suggested_key": {
+              "default": "Ctrl+End"
+          },
+          "description": "Undo the most recent page scrolling action"
+      }
+  },
+
+  "permissions": [
+    "activeTab",
+    "<all_urls>"
+  ]
+}
