@@ -19,7 +19,7 @@
   "commands": {
       "undo": {
           "suggested_key": {
-              "default": "Ctrl+End"
+              "default": "Ctrl+Shift+K"
           },
           "description": "Undo the most recent page scrolling action"
       }
