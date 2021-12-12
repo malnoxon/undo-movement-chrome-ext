@@ -12,7 +12,7 @@ Pressing `<Ctrl-Shift+K>` will scroll you back to wherever you were on the curre
 
 (you can adjust the keybinding at chrome://extensions/shortcuts)
 
-##License
+## License
 
 The included jquery-3.1.0.min.js is licensed under the MIT License as linked in the file.
 
