@@ -3,7 +3,7 @@
 
     "name": "Undo Movement",
     "description": "Lets you undo accidental page movements (eg an accidental page down)",
-    "version": "0.0.1",
+    "version": "1.0.1",
 
     "icons": {
         "16": "icon16.png",
