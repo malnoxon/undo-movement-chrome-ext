@@ -2,7 +2,7 @@
 A chrome extension that lets you undo your most recent scrolling motion. This is useful if you accidentally hit the "Home" or "End" buttons on a long page and lose your location.
 
 ## Installation
-There is no chrome web store installation for this (I don't feel like paying for a developer account)
+There is no chrome web store installation for this (I don't feel like paying for a developer account, if people actually want to use this I'd consider it)
 
 To install you need to load this as an unpacked extension. You can find many instructions on how to do this,
 one is at (https://developer.chrome.com/docs/extensions/mv3/getstarted/#manifest) starting with the navigation to chrome://extensions
